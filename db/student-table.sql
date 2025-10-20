@@ -1,4 +1,4 @@
--- Active: 1759723504384@@127.0.0.1@3306
+-- Active: 1759724588408@@127.0.0.1@3306
 
 DROP TABLE student;
 CREATE TABLE student(  
