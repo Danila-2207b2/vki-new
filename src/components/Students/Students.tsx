@@ -11,6 +11,8 @@ const Students = (): React.ReactElement => {
   const onDeleteHandler = (studentId: number): void => {
     if (confirm('Удалить студента?')) {
       deleteStudentMutate(studentId);
+      debugger;
+      console.log('onDeleteHandler', studentId)
     }
   };
 
